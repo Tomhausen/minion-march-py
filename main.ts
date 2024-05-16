@@ -282,7 +282,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.portal, function enter_portal(mi
     }
     
     if (sprites.readDataBoolean(blue_portal, "active") && sprites.readDataBoolean(orange_portal, "active")) {
-        if (portal.image.equals(assets.image`blue portal`)) {
+        if (portal === blue_portal) {
             minion.setPosition(orange_portal.x, orange_portal.y)
         } else {
             minion.setPosition(blue_portal.x, blue_portal.y)

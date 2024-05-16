@@ -259,7 +259,7 @@ def enter_portal(minion, portal):
     if sprites.read_data_boolean(minion, "recently teleported"):
         return
     if sprites.read_data_boolean(blue_portal, "active") and sprites.read_data_boolean(orange_portal, "active"):
-        if portal.image.equals(assets.image("blue portal")):
+        if portal is blue_portal:
             minion.set_position(orange_portal.x, orange_portal.y)
         else:
             minion.set_position(blue_portal.x, blue_portal.y)
