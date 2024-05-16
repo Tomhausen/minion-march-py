@@ -16,7 +16,6 @@ class SpriteKind:
     portal = SpriteKind.create()
 # /GH2
 
-
 # variables
 levels = [
     assets.tilemap("level 1"),
