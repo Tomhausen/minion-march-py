@@ -10,7 +10,7 @@
         "arcade-text": "github:microsoft/arcade-text#v1.3.0",
         "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0",
         "Tiles Advanced": "github:Tomhausen/The-Code-Zone-Tiles-Advanced#v0.5.6",
-        "Browser Events Advanced": "github:Tomhausen/Browser-Events-Advanced#v0.0.5"
+        "Browser Events Advanced": "github:tomhausen/browser-events-advanced#v0.0.5"
     },
     "files": [
         "main.blocks",
