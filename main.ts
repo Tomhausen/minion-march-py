@@ -196,8 +196,7 @@ browserEvents.MouseLeft.onEvent(browserEvents.MouseButtonEvent.Pressed, function
                 return
             }
             
-            location = platforms_to_reset[0]
-            platforms_to_reset.shift()
+            location = platforms_to_reset.shift()
             tiles.setTileAt(location, assets.tile`empty`)
             tiles.setWallAt(location, false)
             music.knock.play()

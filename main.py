@@ -164,8 +164,7 @@ def reset_platform():
     global platforms_available # leave this line if didnt do bh1
     if len(platforms_to_reset) < 1:
         return
-    location = platforms_to_reset[0]
-    platforms_to_reset.shift()
+    location = platforms_to_reset.shift()
     tiles.set_tile_at(location, assets.tile("empty"))
     tiles.set_wall_at(location, False)
     music.knock.play()
